@@ -66,7 +66,7 @@ namespace XPlatformCloudKit
         //When an item of this group is selected, it will not show it's Title, Subtitle, or Image. (Ideal for Youtube RSS feeds)
         public static readonly string[] GroupsToDisplayInFullScreen = 
         {
-            "Youtube Playlist Example","Youtube query example"
+            "Part 1: Videos 1-50","Part 2: Videos 51-100","Part 3: Videos 101-150","Part 4: Videos 151-200"
         };
 
         //Determines whether to use the Light theme (white background / black text) over the default Dark theme
