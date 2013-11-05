@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="39938dallasbrittany.AnimalCrossingNewLeafWalkthrou" Publisher="CN=25F2C062-55A7-4FC2-914B-148C2A711D3F" Version="1.0.0.0" />
+  <Identity Name="39938dallasbrittany.AnimalCrossingNewLeafWalkthrou" Publisher="CN=25F2C062-55A7-4FC2-914B-148C2A711D3F" Version="1.0.0.1" />
   <Properties>
     <DisplayName>Animal Crossing New Leaf Walkthrough Guide</DisplayName>
     <PublisherDisplayName>dallasbrittany</PublisherDisplayName>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="XPlatformCloudKit.Win8.App">
-      <VisualElements DisplayName="Animal Crossing New Leaf Walkthrough Guide" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Animal Crossing New Leaf Walkthrough Guide" ForegroundText="light" BackgroundColor="#B5E61D">
+      <VisualElements DisplayName="Animal Crossing New Leaf Walkthrough Guide" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Animal Crossing New Leaf Walkthrough Guide" ForegroundText="dark" BackgroundColor="#B5E61D">
         <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
         <SplashScreen Image="Assets\SplashScreen.png" />
         <InitialRotationPreference>

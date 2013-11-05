@@ -354,6 +354,13 @@
       <ReservedName>Animal Crossing New Leaf Walkthrough Guide</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames />
-  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/0d55983a-f6dd-4f2e-9721-7575eb4f75b4" />
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>39938dallasbrittany.ArtByJaredPaulWilson</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
+  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/0d55983a-f6dd-4f2e-9721-7575eb4f75b4">
+    <PackageInfo>
+      <PackageArchitecture>neutral</PackageArchitecture>
+      <PackageMaxArchitectureVersion>1.0.0.0</PackageMaxArchitectureVersion>
+    </PackageInfo>
+  </PackageInfoList>
 </StoreAssociation>
