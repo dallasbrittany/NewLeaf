@@ -355,12 +355,19 @@
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
+    <MainPackageIdentityName>39938dallasbrittany.Amaryllis</MainPackageIdentityName>
     <MainPackageIdentityName>39938dallasbrittany.ArtByJaredPaulWilson</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.CampfireStories</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.DragonvaleGuide</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.GrannyJosHomeCooking</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.HolidayAdventCalendar</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.HolidayCraftGuide</MainPackageIdentityName>
+    <MainPackageIdentityName>39938dallasbrittany.HoustonGuide</MainPackageIdentityName>
   </AccountPackageIdentityNames>
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/0d55983a-f6dd-4f2e-9721-7575eb4f75b4">
     <PackageInfo>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.0.1</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.0.0.2</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>
