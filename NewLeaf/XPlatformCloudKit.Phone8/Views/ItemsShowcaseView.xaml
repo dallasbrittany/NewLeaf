@@ -28,6 +28,7 @@
             <Border HorizontalAlignment="Left" Margin="6">
                 <TextBlock Text="{Binding Key}"
                     TextTrimming="WordEllipsis"
+                    TextWrapping="Wrap"
         			FontSize="40" 
         			VerticalAlignment="Center" HorizontalAlignment="Center" />
             </Border>
@@ -77,9 +78,9 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot">
-        <Grid.Background>
-            <ImageBrush ImageSource="/Assets/Images/Background.png"/>
-        </Grid.Background>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="/Assets/Wallpaper.png" Opacity=".5"/>
+        </Grid.Background>-->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>

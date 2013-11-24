@@ -29,7 +29,10 @@
         Style="{StaticResource LayoutRootStyle}"
         DataContext="{Binding SelectedItem}"
         d:DataContext="{Binding SelectedItem, Source={d:DesignInstance Type=sampleData:ItemDescriptionSampleData, IsDesignTimeCreatable=True}}">
-      	<Grid.ColumnDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/Wallpaper.png"/>
+        </Grid.Background>-->
+        <Grid.ColumnDefinitions>
     		<ColumnDefinition Width="50*"/>
     		<ColumnDefinition Width="50*"/>
     	</Grid.ColumnDefinitions>
@@ -65,7 +68,7 @@
                         UserControl chosen as the templated item because it supports visual state management
                         Loaded/unloaded events explicitly subscribe to view state updates from the page
                     -->
-                    <UserControl x:ConnectionId='3'                                                         >
+                    <UserControl x:ConnectionId='4'                                                         >
                         <ScrollViewer x:Name="scrollViewer" Style="{StaticResource HorizontalScrollViewerStyle}" Grid.Row="1">
 
                             <!-- Content is allowed to flow across as many columns as needed -->
@@ -131,14 +134,22 @@
             </FlipView.ItemTemplate>
         </FlipView>
         <WebView x:ConnectionId='1' x:Name="webView" Grid.Row="1" Grid.Column="1"                           Margin="70,30,70,47"/>
-
+        <Button x:ConnectionId='2' x:Name="WebViewFullScreenToggleButton" 
+                Content="Full Screen" 
+                Grid.Row="0" Grid.Column="1" 
+                Height="50" Width="200" 
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                Margin="0,0,70,0"
+                                                             
+                />
         <!-- Back button and page title -->
         <Grid Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='2' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='3' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{Binding Group}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
@@ -171,6 +182,20 @@
                         	<DiscreteObjectKeyFrame KeyTime="0">
                         		<DiscreteObjectKeyFrame.Value>
                         			<Visibility>Collapsed</Visibility>
+                        		</DiscreteObjectKeyFrame.Value>
+                        	</DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="WebViewFullScreenToggleButton">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="pageTitle">
+                        	<DiscreteObjectKeyFrame KeyTime="0">
+                        		<DiscreteObjectKeyFrame.Value>
+                        			<Thickness>0,0,15,40</Thickness>
                         		</DiscreteObjectKeyFrame.Value>
                         	</DiscreteObjectKeyFrame>
                         </ObjectAnimationUsingKeyFrames>

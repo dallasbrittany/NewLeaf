@@ -5,100 +5,100 @@
     <WindowsUser>dallasbrittany</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>C4A072BA13D6D8A4B41AC229BCCD4C3D26EB88E757AD775A7514DA7091BD008F</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>e43687af-7f77-410e-bea5-7a333cea2b7f_1.0.0.0_neutral__hbgv2bt9v3z6c</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>e43687af-7f77-410e-bea5-7a333cea2b7f_hbgv2bt9v3z6c!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>e43687af-7f77-410e-bea5-7a333cea2b7f</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=pdecarlo</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>4D4A9554708FE1D7BCC6F6855052EE5A89B908B81A3B50DD5B5377855232CCAB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>39938dallasbrittany.AnimalCrossingNewLeafWalkthrou_2.0.0.0_neutral__dy92ynh78m5gp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>39938dallasbrittany.AnimalCrossingNewLeafWalkthrou_dy92ynh78m5gp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>39938dallasbrittany.AnimalCrossingNewLeafWalkthrou</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=25F2C062-55A7-4FC2-914B-148C2A711D3F</RegisteredPackagePublisher>
+    <RegisteredVersion>2.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-24T03:19:34.000</Modified>
+      <Modified>2013-11-24T06:50:03.199</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\XPlatformCloudKit.Win8.exe">
       <PackagePath>XPlatformCloudKit.Win8.exe</PackagePath>
-      <Modified>2013-11-24T03:19:32.970</Modified>
+      <Modified>2013-11-24T06:50:02.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\XPlatformCloudKit.Win8.pdb">
       <PackagePath>XPlatformCloudKit.Win8.pdb</PackagePath>
-      <Modified>2013-11-24T03:19:32.952</Modified>
+      <Modified>2013-11-24T06:50:02.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.CrossCore.3.0.12\lib\netcore45\Cirrious.CrossCore.dll">
       <PackagePath>Cirrious.CrossCore.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.918</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.CrossCore.3.0.12\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll">
       <PackagePath>Cirrious.CrossCore.WindowsStore.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.909</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.12\lib\netcore45\Cirrious.MvvmCross.dll">
       <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.022</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.CrossCore.3.0.12\lib\netcore45\Cirrious.MvvmCross.Localization.dll">
       <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.919</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.Plugin.File.3.0.10\lib\netcore45\Cirrious.MvvmCross.Plugins.File.dll">
       <PackagePath>Cirrious.MvvmCross.Plugins.File.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.164</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.Plugin.File.3.0.10\lib\netcore45\Cirrious.MvvmCross.Plugins.File.WindowsStore.dll">
       <PackagePath>Cirrious.MvvmCross.Plugins.File.WindowsStore.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.163</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.12\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll">
       <PackagePath>Cirrious.MvvmCross.WindowsStore.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.012</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Microsoft.Bcl.Async.1.0.16\lib\win8\Microsoft.Threading.Tasks.dll">
       <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.360</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Microsoft.Bcl.Async.1.0.16\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
       <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.348</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\WindowsAzure.MobileServices.1.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.792</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\WindowsAzure.MobileServices.1.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.774</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.621</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Microsoft.Net.Http.2.2.13\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.645</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Microsoft.Net.Http.2.2.13\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
-      <Modified>2013-11-18T04:52:13.654</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.PCL\bin\Debug\XPlatformCloudKit.PCL.dll">
       <PackagePath>XPlatformCloudKit.PCL.dll</PackagePath>
-      <Modified>2013-11-24T03:19:17.696</Modified>
+      <Modified>2013-11-24T06:47:30.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.PCL\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll">
       <PackagePath>Cirrious.MvvmCross.Plugins.Json.dll</PackagePath>
-      <Modified>2013-11-18T04:52:14.321</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Lib\NotificationsExtensions.winmd">
       <PackagePath>NotificationsExtensions.winmd</PackagePath>
-      <Modified>2013-11-18T04:52:12.367</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.PCL\bin\Debug\XPlatformCloudKit.PCL.pdb">
       <PackagePath>XPlatformCloudKit.PCL.pdb</PackagePath>
-      <Modified>2013-11-24T03:19:17.677</Modified>
+      <Modified>2013-11-24T06:47:30.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -120,6 +120,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-11-12T05:03:27.385</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\Wallpaper.png">
+      <PackagePath>Assets\Wallpaper.png</PackagePath>
+      <Modified>2013-11-24T03:43:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -127,31 +131,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
-      <Modified>2013-11-18T04:52:12.307</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\LocalItemsFile.xml">
       <PackagePath>LocalItemsFile.xml</PackagePath>
-      <Modified>2013-11-24T03:13:49.075</Modified>
+      <Modified>2013-11-24T04:21:10.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2013-11-18T04:52:12.249</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2013-11-18T04:52:12.326</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\Views\ItemDescriptionView.xaml">
       <PackagePath>Views\ItemDescriptionView.xaml</PackagePath>
-      <Modified>2013-11-18T04:52:12.398</Modified>
+      <Modified>2013-11-24T03:43:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\Views\ItemsShowcaseView.xaml">
       <PackagePath>Views\ItemsShowcaseView.xaml</PackagePath>
-      <Modified>2013-11-18T04:52:12.411</Modified>
+      <Modified>2013-11-24T06:42:37.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-24T01:26:06.839</Modified>
+      <Modified>2013-11-24T06:50:03.078</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

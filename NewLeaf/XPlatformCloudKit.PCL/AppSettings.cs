@@ -45,6 +45,7 @@ namespace XPlatformCloudKit
 
         #region RssService Settings
         public const bool EnableRssService = true;//Use RssAddressCollection 
+        public const int RssMaxItemsPerFeed = -1; //The Maximum number of items to fetch for each feed. Enter Negative value to fetch all.
 
         //Urls to an RSS Data Source 
         //i.e. http://reddit.com/r/technology/.rss
@@ -55,7 +56,28 @@ namespace XPlatformCloudKit
             new RssSource{Url = "http://gdata.youtube.com/feeds/api/playlists/SP-7t9DoIELCRI6cwyP1IHZuaq5fzyeuwW?alt=rss&max-results=50&start-index=51", Group = "Part 2: Videos 51-100"},
             new RssSource{Url = "http://gdata.youtube.com/feeds/api/playlists/SP-7t9DoIELCRI6cwyP1IHZuaq5fzyeuwW?alt=rss&max-results=50&start-index=101", Group = "Part 3: Videos 101-150"},
             new RssSource{Url = "http://gdata.youtube.com/feeds/api/playlists/SP-7t9DoIELCRI6cwyP1IHZuaq5fzyeuwW?alt=rss&max-results=50&start-index=151", Group = "Part 4: Videos 151-200"},
-		};
+        };
+
+        /*
+         * Put the URL to a file on a web server you control that will contain a list of additional RSS
+         *  feeds you want to add to the list of feeds in RssAddressCollection below.  The file should
+         *  be a simple CSV file containing two fields per line, with the fields separate by a comma.
+         *  The first field should be a valid RSS URL and the second field should be the group name
+         *  you want the feed assigned to.
+         *
+         * Here's an example of a sample remote RSS feed file with two YouTube channels, and a single common group.
+         * 
+         *  https://gdata.youtube.com/feeds/api/users/TheWindotnet/uploads?orderby=updated&alt=rss, "Remote RSS Feed Example"
+         *  https://gdata.youtube.com/feeds/api/users/roschler/uploads?orderby=updated&alt=rss, "Remote RSS Feed Example"
+         *
+         * Make sure EnableRssService to set to TRUE or the remote content (or the RSS feeds below) will 
+         *  not be accessed.  Leave RemoteRssSourceUrl blank if you do not want to use the remote RSS
+         *  feature.
+         */
+        //The value below can be used to test RemoteRssSourceUrl, but please don't leave it active in your published app.
+        //public const string RemoteRssSourceUrl = "http://robodance.com/xplatformcloudkit/remote-rss-feed-sample.txt";
+        public const string RemoteRssSourceUrl = "";
+
         #endregion
 
         #region LocalItemsFileService Settings
@@ -73,6 +95,9 @@ namespace XPlatformCloudKit
         //Determines whether to use the Light theme (white background / black text) over the default Dark theme
         //(black background / white text)
         public const bool UseLightThemeForWindows8 = true;
+        //To change specifics value of the chosen theme, i.e. Font Color throughout the Windows 8 application
+        //Open XPlatformCloudKit.Win8/Common/StandardStyles.xaml and look for the <!-- Theme Overrides --> Section
+        //Uncomment the portion(s) of the theme you wish to override
 
         //Url to your privacy policy - default value is "http://windotnet.blogspot.com/2013/11/app-privacy-policy.html"
         //Note: This is REQUIRED for certification in the Windows 8 store

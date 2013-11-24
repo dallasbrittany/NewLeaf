@@ -52,7 +52,7 @@
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\WindowsAzure.MobileServices.1.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\packages\Microsoft.Net.Http.2.2.13\lib\win8\System.Net.Http.Extensions.dll">
@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\Wallpaper.png">
+      <PackagePath>Assets\Wallpaper.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dallasbrittany\Documents\GitHub\NewLeaf\NewLeaf\XPlatformCloudKit.Win8\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
